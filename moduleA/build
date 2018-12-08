@@ -3,4 +3,4 @@
 mkdir -p ./classes
 
 cp -r ./resources/* ./classes
-javac -d ./classes/ src/**/*.java
+javac -cp ../module1/classes/  -d ./classes/ src/**/*.java
