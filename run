@@ -1,0 +1,4 @@
+#!/usr/bin/zsh
+
+java -cp ./moduleA/classes:./module1/classes "$@"
+ 
