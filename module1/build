@@ -1,6 +1,10 @@
 #!/usr/bin/zsh
 
+set -x
+
 mkdir -p ./classes
 
 cp -r ./resources/* ./classes
 javac -d ./classes/ src/**/*.java
+cd ./classes/
+jar cf ../module1.jar ./*
